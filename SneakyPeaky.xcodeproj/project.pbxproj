@@ -10,9 +10,22 @@
 		BE3B2EE52DB0E20400A401F9 /* SneakyPeaky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SneakyPeaky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BE3B2EF52DB0E61F00A401F9 /* Exceptions for "SneakyPeaky" folder in "SneakyPeaky" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BE3B2EE42DB0E20400A401F9 /* SneakyPeaky */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BE3B2EE72DB0E20400A401F9 /* SneakyPeaky */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BE3B2EF52DB0E61F00A401F9 /* Exceptions for "SneakyPeaky" folder in "SneakyPeaky" target */,
+			);
 			path = SneakyPeaky;
 			sourceTree = "<group>";
 		};
@@ -253,6 +266,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SneakyPeaky/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan messages live.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to read your photos to decode the messages.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -292,6 +308,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SneakyPeaky/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need camera access to scan messages live.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need to read your photos to decode the messages.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
